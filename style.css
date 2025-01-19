@@ -1,0 +1,73 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.listfirst{
+    padding:10px 10px 10px 0px;
+}
+
+.first li{
+    list-style-type: none;
+}
+
+.sidebar ul li:hover{
+    background-color: rgb(24, 24, 24,1);
+    transition: ease-out 0.14s;
+}
+.third .search,.search input{
+    background-color: rgb(32, 35, 39,1);
+    
+}
+.search svg{
+    color: gray;
+}
+
+.search input::placeholder{
+    color: gray;
+}
+.Premium, .whats,.follow{
+    border: 1px solid rgb(47, 51, 54);
+    
+}
+.Premium :nth-child(2),.stream,.salaar,.more{
+    font-size: 15px;
+    line-height: 20px;
+}
+.morning,.enter{
+    font-size: 13px;
+    line-height:20px;
+    color: rgb(113, 118, 123);
+}
+.Premium button{
+    font-size: 15px;
+    background-color: rgb(29, 155, 240);
+}
+.more{
+    color: rgb(29,155,240);
+}
+.prem{
+    color: rgb(113, 118, 123);
+    font-size: 15px;
+}
+.buttonfollow{
+    font-size: 14px;
+}
+.whats > div:not(:first-child):hover, .follow > div:not(:first-child):hover {
+    /* Add your hover styles here */
+    background-color:rgb(255,255,255,0.03);
+    transition: ease-out 0.2s;
+}
+
+.line{
+    position: absolute;
+    background-color:rgb(29, 155, 240,1);
+    width: 55px;
+    height: 3px;
+    border-radius: 3px;
+    bottom: 0;
+    left:20%;
+}
+.line2{
+    left:68%;
+    width:70px
+}
